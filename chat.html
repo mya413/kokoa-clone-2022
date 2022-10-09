@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kokoa-clone by Mia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="chatPage">
+    <section class="statebar setting">
+        <div>
+            <span>No Service</span>
+            <i class="fa-solid fa-plane-up"></i>
+        </div>
+        <div>
+            <span>04:13</span>
+        </div>
+        <div>
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </section>
+
+    <header class="headerTit setting pages">
+        <a href="chats.html"><i class="fa-solid fa-chevron-left"></i></a>
+        <h1 class="chatTit">KakaoTalk</h1>
+        <div>
+            <a href="find.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </div>
+    </header>
+    
+    <section class="chat_con">
+        <div class="chat_timestamp">
+            Tuesday, June 30, 2020
+        </div>
+        <div class="chatTxt">
+            <img src="data:image/png;base64,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">
+            <div class="chatTxt_con">
+                <span class="chatTxt_user">KakaoTalk</span>
+                <div class="chatTxt_info">
+                    <span class="chatTxt_message">Hi!</span>
+                    <span class="chatTxt_time">09:01</span>
+                </div>
+            </div>
+        </div>
+        <div class="chatTxt chatTxt_reverse">
+            <div class="chatTxt_con">
+                <div class="chatTxt_info">
+                    <span class="chatTxt_message">Hi! How are you?</span>
+                    <span class="chatTxt_time">04:13</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <form class="reply">
+        <div class="reply_column">
+            <i class="far fa-plus-square"></i>
+        </div>
+        <div class="reply_column">
+            <input type="text" placeholder="Write a message...">
+            <i class="far fa-smile-wink"></i>
+            <button><i class="fas fa-arrow-up"></i></button>
+        </div>
+    </form>
+
+    <div id="no_mobile">
+        <span>Your screen is too big<br>Please visit on mobile.</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/e8e852d4eb.js" crossorigin="anonymous"></script>
+</body>
+</html>
